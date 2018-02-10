@@ -1,0 +1,55 @@
+@media only screen and (min-width: 64em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+ 
+.hamburger {
+    display: none;
+    }    
+nav {
+    clear: left;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+nav button { 
+    display:none;  
+    
+    }
+    
+main figure {  }
+main figure img { width: 100%; }
+
+
+main section h4 { 
+    display: block;
+    margin-top: 25px;
+    color: #1d3549;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid #1d3549;
+    }
+    
+main table{
+    display: block;
+    clear: inherit;
+    width: 100%;
+    margin-left: 30%;
+   
+    }    
+  
+    main  table thead{
+
+        font-size: 20px;
+    }
+
+
+
+article{
+    clear: both;
+    }
+    
+  article p.town-article img { width: 29.333%; }
+ 
+    
+    
+    
+}
