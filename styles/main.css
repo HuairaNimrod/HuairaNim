@@ -7,12 +7,12 @@
 body { 
     font-size: 16px; 
     line-height: 32px;
-    font-family:  Ubuntu, sans-serif ;
+    font-family:  Ubuntu ;
     color: #004080;
 }
 
 h1 {
-    font-size:  3rem;
+    font-size: 2rem;
     color:  #004080 ;
 }
 
@@ -30,7 +30,7 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color: #a3a3c2;
+    background-color: #4F88B8;
     color: whitesmoke;
 }
 
