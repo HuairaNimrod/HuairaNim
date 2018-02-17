@@ -1,0 +1,90 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+  
+ header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    min-width: 37.5em;
+}
+
+nav {
+    clear: left;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+    /* nav button: none */
+nav button { 
+    display:none;          
+    }  /* hamburger button does not need to be shown */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    
+   
+} 
+nav ul li {
+    float: left;/*this breaks the block view*/
+    border-bottom:none;
+}
+    
+    
+nav ul li a {
+    display: block;
+    color: #1d3549;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+main figure { margin: 0 0 6rem 2%; width:95%; }
+    
+main figure img{ 
+    margin: 10px auto;
+    display: block;
+    max-width: 400px;
+    float: left;
+     }
+  
+    
+article div.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    width: 98%;/* fill the page in the small/phone view */
+    margin: 0 0 0 0; 
+}
+
+main section h4 { 
+    text-align: center;
+    display:block;
+    margin-top: 25px;
+    color: #1d3549;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid #1d3549;
+    }
+    
+main table{
+    display: block;
+    clear: inherit;
+    width: 100%;
+    margin-left: 20%;
+   
+    }     
+ /*   
+table.center{
+
+    display: block;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%; 
+    }  
+ */
+    
+  /*section.forecast { display: ???; }  /* show the 10-day forecast with the medium view and up */
+  
+  article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
+
+}
+
