@@ -21,31 +21,38 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    
+    width: 99%;
     background-color: #f1f1f1;
-    
-   
-} 
-nav ul li {
-    float: left;/*this breaks the block view*/
-    border-bottom:none;
+    /*border: 1px solid #1975D1;*/
 }
-    
-    
+nav ul li {
+    text-align: center;
+    border-bottom: 1px solid #1975D1;
+}
 nav ul li a {
     display: block;
+    /*width: 100%;*/
     color: #1d3549;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 8px 16px;
     text-decoration: none;
+}
+nav ul li.active a {/*Home background*/
+    background-color: #1d3549;
+    color: white;
+}
+.nav ul li a:hover {/*color when uses the cursor*/
+    background-color: #B5CDE1;
+    color: white;
 }
     
 /*------------------*/   
 
-    body .hamburger { 
-    display: block;
+    body .hamburger {
+        
+    display: inline-block;
     position: absolute;
-    display: inline;
+    display: blo;
     top: 2.0rem;
     right: 1.25rem; 
     }
