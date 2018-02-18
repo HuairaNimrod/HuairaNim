@@ -39,7 +39,32 @@ nav ul li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+    
+/*------------------*/   
 
+    body .hamburger { 
+    display: block;
+    position: absolute;
+    display: inline;
+    top: 2.0rem;
+    right: 1.25rem; 
+    }
+
+    .navigation { 
+    clear: both;
+    }
+    
+    .navigation li { 
+    display: inline-block; 
+    }
+    
+    .navigation.responsive li {
+    display: block;
+    width: 100%;
+    }    
+
+/*------------------*/ 
+    
 main figure { margin: 0 0 6rem 2%; width:95%; }
     
 main figure img{ 
@@ -49,6 +74,7 @@ main figure img{
     float: left;
      }
   
+    
     
 article div.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
     width: 98%;/* fill the page in the small/phone view */
