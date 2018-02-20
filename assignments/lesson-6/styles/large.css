@@ -1,24 +1,17 @@
 @media only screen and (min-width: 64em) {
   /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
  
-.hamburger {
-    display: none;
-    }    
-nav {
-    clear: left;
-    margin-right: 2%;
-    margin-left: 2%;
-}
 
-nav button { 
-    display:none;  
     
+main figure { }
+main figure img { width: 100%;
+    max-width: 600px;}
+
+.forecast{
+
+        margin-top: 80px;
     }
     
-main figure {  }
-main figure img { width: 100%; }
-
-
 main section h4 { 
     display: block;
     margin-top: 25px;

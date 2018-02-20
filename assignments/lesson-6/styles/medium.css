@@ -6,82 +6,36 @@
     min-width: 37.5em;
 }
 
-nav {
-    clear: left;
-    margin-right: 2%;
-    margin-left: 2%;
-}
 
-    /* nav button: none */
-nav button { 
-    display:none;          
-    }  /* hamburger button does not need to be shown */
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-    width: 99%;
-    background-color: #f1f1f1;
-    /*border: 1px solid #1975D1;*/
-}
-nav ul li {
-    text-align: center;
-    border-bottom: 1px solid #1975D1;
-}
-nav ul li a {
-    display: block;
-    /*width: 100%;*/
-    color: #1d3549;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-nav ul li.active a {/*Home background*/
-    background-color: #1d3549;
-    color: white;
-}
-.nav ul li a:hover {/*color when uses the cursor*/
-    background-color: #B5CDE1;
-    color: white;
-}
-    
-/*------------------*/   
+/* ------hamburguer------*/
 
-    body .hamburger {
-        
-    display: inline-block;
-    position: absolute;
-    display: blo;
-    top: 2.0rem;
-    right: 1.25rem; 
-    }
-
-    .navigation { 
-    clear: both;
-    }
+.hamburger { display: none; }
+.navigation { background-color: #ddd; overflow: hidden; text-align: left; }
+.navigation li { display: inline-block; margin-left: .25rem; }
     
-    .navigation li { 
-    display: inline-block; 
-    }
+/* 2nd part*/
     
-    .navigation.responsive li {
-    display: block;
-    width: 100%;
-    }    
-
-/*------------------*/ 
+.navigation a { display: block; color: #1d3549; padding: .5rem; text-align: center; text-decoration: none;}
+.navigation a:hover { color: #1d3549; background-color: #B5CDE1; }
     
-main figure { margin: 0 0 6rem 2%; width:95%; }
+/* ------hamburguer------*/
+    
+    
+main figure { margin: 2 0 6rem 1%; width:98%; }
     
 main figure img{ 
-    margin: 10px auto;
-    display: block;
-    max-width: 400px;
+    margin:inherit;
+    display:inherit;
+    max-width: 485px;
+    position:relative;
     float: left;
      }
   
-    
+.forecast{
+
+        margin-top: 60px;
+    }
     
 article div.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
     width: 98%;/* fill the page in the small/phone view */
