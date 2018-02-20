@@ -53,6 +53,7 @@ header .subheading {
 
 
 main {
+    margin-top: 60px;
     text-align: center;
     color: #1d3549;
     font-family: 'Ubuntu', sans-serif;

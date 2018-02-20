@@ -11,7 +11,8 @@
 /* ------hamburguer------*/
 
 .hamburger { display: none; }
-.navigation { background-color: #ddd; overflow: hidden; text-align: left; }
+.navigation { 
+    margin-top: 60px; background-color: #ddd; overflow: hidden; text-align: left; }
 .navigation li { display: inline-block; margin-left: .25rem; }
     
 /* 2nd part*/
