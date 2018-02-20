@@ -4,10 +4,14 @@
  header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
     min-width: 37.5em;
+     
+    
 }
 
-
-
+header {
+    
+    font-size: 14px;
+    }
 /* ------hamburguer------*/
 
 .hamburger { display: none; }
