@@ -1,0 +1,118 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+ /*max-width: 37.5em;*/
+}
+
+header {
+    /*background-color: #154d7c;*/
+    background-color: #1d3549;
+    font-size: 12px;
+}
+header h1 {
+    font-family: 'Spectral SC', serif;
+    margin-left: 150px;
+    margin-top: 25px;
+    color: whitesmoke;
+}
+header img {
+    float: left;
+    margin-top: -35px;
+}
+header .subheading {
+    margin-left:190px;
+    margin-top: -20px;
+    color: #d5e597;
+}
+
+
+
+/*-------HAMBURGUER---*/
+.hamburger { display: block;position: absolute;top: 2.0rem;right: 1.25rem; background-color: #1d3549; color: #f1f1f1; }
+.navigation { margin-top: 50px; list-style: none; padding-left: 0; }
+.navigation li { display: none; }
+
+/* 2nd part*/
+
+.navigation.responsive { position: relative; }
+.navigation.responsive li { background-color: #eee; display: block; width: 100%; margin: 0px; border: 1px solid #ddd; }
+.navigation.responsive li a { padding: 1rem;  color: #1d3549; text-align: center ; display: block; text-decoration:none solid #1d3549; }
+.navigation.responsive li a:hover { background-color: #B5CDE1; }
+
+
+/*-------HAMBURGUER---*/
+
+
+
+
+main {
+    margin-top: 60px;
+    text-align: center;
+    color: #1d3549;
+    font-family: 'Ubuntu', sans-serif;
+}
+main h2,h3 {
+     font-family: 'Spectral SC', serif;
+    font-size:18px;
+}
+main figure { margin: 0 0 .2rem 2%; width:96%;  }
+main figure img { width: 100%; }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+}
+
+section {
+    margin-top: 20px;
+}
+
+main section h4, table{
+    display: none;
+}
+article{
+    border: 1px solid #4F88B8;
+    text-align: left;
+    margin: 60px 10px .2rem 2%;
+}
+article h3{
+    text-align: center;
+}
+article div{
+    margin: 0 0 2% 2%; 
+}
+
+article div.town-article img {  /* fits the picture */
+  width: 98%; /* fill the page in the small/phone view */
+  margin: 0 0 0 0;
+    
+}
+
+footer {margin-top: 10px;
+    display: block;
+    clear: center;
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1d3549;
+    color: aliceblue;
+/*    font-family: Comic Sans;*/
+    font-family: 'Ubuntu', sans-serif;
+    font-size:  smaller ;}
+footer aside {
+    position: relative;
+}
+footer>p {
+    background-color: #1d3549;
+} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
