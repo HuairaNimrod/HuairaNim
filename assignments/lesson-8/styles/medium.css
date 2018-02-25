@@ -1,0 +1,98 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+  
+ header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    min-width: 37.5em;
+     
+    
+}
+
+header {
+    
+    font-size: 14px;
+    }
+/* ------hamburguer------*/
+
+.hamburger { display: none; }
+.navigation { 
+    margin-top: 60px; background-color: #ddd; overflow: hidden; text-align: left; }
+.navigation li { display: inline-block; margin-left: .25rem; }
+    
+/* 2nd part*/
+    
+.navigation a { display: block; color: #1d3549; padding: .5rem; text-align: center; text-decoration: none;}
+.navigation a:hover { color: #1d3549; background-color: #B5CDE1; }
+    
+/* ------hamburguer------*/
+    
+main h2,h3 {
+     font-family: 'Spectral SC', serif;
+    font-size:20px;
+    }
+main figure { 
+    
+    margin-right: 5%;
+    width:80%; }
+    
+
+  
+.container{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+    
+/*---grid container--*/
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(80px, auto);
+
+/*---end grid container--*/
+  
+    
+.forecast{
+
+        margin-top: 60px;
+    }
+    
+article div.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    width: 98%;/* fill the page in the small/phone view */
+    margin: 0 0 0 0; 
+}
+
+main section h4 { 
+    text-align: center;
+    display:block;
+    margin-top: 25px;
+    color: #1d3549;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid #1d3549;
+    }
+    
+main table{
+    display: block;
+    clear: inherit;
+    width: 100%;
+    margin-left: 20%;
+   
+    }     
+ /*   
+table.center{
+
+    display: block;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%; 
+    }  
+ */
+    
+  /*section.forecast { display: ???; }  /* show the 10-day forecast with the medium view and up */
+  
+  article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
+
+}
+
