@@ -76,8 +76,10 @@ main figure img { width: 100%; }
 .wrapper{
     display: grid;
     margin: .5rem;
+
 }
-img:hover {box-shadow: 5px 5px 10px gray;}
+.wrapper img:hover {
+    box-shadow: 5px 5px 10px gray;}
 div{
     margin-right: 1rem;
 }
