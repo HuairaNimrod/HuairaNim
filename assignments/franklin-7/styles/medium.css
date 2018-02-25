@@ -31,7 +31,7 @@ main h2,h3 {
     font-size:20px;
     }
 main figure { 
-    margin-top: auto;
+    
     margin-right: 5%;
     width:80%; }
     
@@ -40,7 +40,7 @@ main figure {
 .container{
     display: flex;
     flex-direction:row;
-    align-self: center;
+    align-items: center;
 }
     
 .forecast{
