@@ -1,15 +1,21 @@
+table{
+        box-shadow: 10px 10px 5px #d0d0e1;
+}
 table,th,td {
     font-family: 'Ubuntu', sans-serif;
-    border: 0.5px solid black;
+    border: 0.8px solid black;
    border-collapse: collapse;
     text-align: center;
     font-size: 0.8rem;
+    padding: 4px;
+
 }
 
  thead{
     
     background-color:  #628ca6 ;
     color:white;
+    
 
 }
 
