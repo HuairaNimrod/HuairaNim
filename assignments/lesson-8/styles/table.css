@@ -43,9 +43,9 @@ tr:nth-child(even) td {
 tr:nth-child(odd) td {
           background-color:#e7f0ed ;
         }
-
-tfoot{
+/*drill down to its children*/
+tfoot tr th{
     
     background-color: #7fb9c2;
-    font-size: 0.8rem;
+    font-size: 0.3rem;
 }
