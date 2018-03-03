@@ -42,7 +42,7 @@
 <main>
 
         <h2>STORM CENTER</h2>
-        <form action="/thanks.html" method="post" enctype="multipart/form-data" name="storm" id="stormForm">
+        <form action="/thanks.html" method="post" target="_self" enctype="multipart/form-data" name="storm" id="stormForm">
             <fieldset>
                 <legend><span>Personal Information</span></legend>
                 <label><span>full Name:</span><input name="fullname" type="text" placeholder="" pattern="[a-zA-Z]{5,30}" required></label>
@@ -67,9 +67,16 @@
                 </label>
                 <label>
                     <span>storm severity:</span>
-                    <input name="stormSev" type="range" min="1" max="10" oninput="adjustRating(his.value)" onchange="adjustRating(this.value)" ></label>
+                    <input name="stormSev" type="range" id="rating" value="5" min="1" max="10" step="1"  oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" ><span id="ratingvalue">5</span>
+                </label>
                 <label>
-                    <span>storm region</span><input name="zip" type="number">
+                    <span>storm region</span>
+                    <select name="cars">
+                        <option value="Select Region" selected disabled>Select Option</option>
+                        <option value="franklin">Franklin</option>
+                        <option value="greenville">Greenville</option>
+                        <option value="springfield">Springfield</option>
+                    </select>
                 </label>
                 <label>
                     <span>user in-danger level:</span><br>
@@ -87,11 +94,11 @@
             </label>    
             </fieldset>
             
-            <input type="submit" value="Submit" class="submitBtn">
-        
+           <input type="submit" value="Submit" class="submitBtn">
+        <!-- 
             <input type="hidden" value="Storm Report" name="subjet">
-            <input name="redirect" type="hidden" value="thanks.html">
-
+            <input name="redirect" type="hidden" value="thanks.html">   
+            -->
         </form>
         
 
@@ -106,6 +113,6 @@
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
   <script src="scripts/windchill.js"></script>
-
+  <script src="scripts/range.js"></script>
 </body>
 </html>
