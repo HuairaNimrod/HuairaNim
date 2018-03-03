@@ -6,19 +6,19 @@ form#stormForm{
 }
 
 fieldset {
-    background-color: #e4dccf;
+    background-color: #ced3d9;
     border-radius: .8em;
     margin: 1.5em 0 ;
-    border: #917a56 solid 1px;
+    border: #1d3549 solid 1px;
     
 }
 
 legend{
-    color: #7d2a35;
+    color: #1d3549;
     margin-left: 6%;
     padding: .5em;
-    border: #917a56 solid 1px;
-    background-color: #f2eee7;
+    border: #1d3549 solid 1px;
+    background-color: #c7dce3;
     border-radius: .4em;
 }
 
@@ -30,7 +30,7 @@ label{
 label span{
     display: block;
     font-size: .8em;
-    color: #917a56;
+    color: #1d3549;
     padding-top: .9em;
     padding-bottom: .2em;
 }
@@ -44,7 +44,7 @@ input.submitBtn {
     margin: .5em 0;
     font-size: 1em;
     padding: .6em;
-    background: #7d2a35;
+    background: #345e89;
     box-shadow: 4px 4px 10px #666;
 }
 
