@@ -1,0 +1,50 @@
+/*----------------------- FORM STUFF ---------------------------*/
+
+form#stormForm{
+    margin: 1em 3%;
+    text-align: left;
+}
+
+fieldset {
+    background-color: #ced3d9;
+    border-radius: .8em;
+    margin: 1.5em 0 ;
+    border: #1d3549 solid 1px;
+    
+}
+
+legend{
+    color: #1d3549;
+    margin-left: 6%;
+    padding: .5em;
+    border: #1d3549 solid 1px;
+    background-color: #c7dce3;
+    border-radius: .4em;
+}
+
+label{
+    display: block;
+    margin: .5em;
+}
+
+label span{
+    display: block;
+    font-size: .8em;
+    color: #1d3549;
+    padding-top: .9em;
+    padding-bottom: .2em;
+}
+
+input.submitBtn {
+    -webkit-appearance: none; /*remove the apple mobile default styling*/
+    color: #fff;
+    border: solid 1px #111;
+    border-radius: 7px;
+    width: 50%;
+    margin: .5em 0;
+    font-size: 1em;
+    padding: .6em;
+    background: #345e89;
+    box-shadow: 4px 4px 10px #666;
+}
+
