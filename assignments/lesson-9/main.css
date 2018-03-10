@@ -1,0 +1,25 @@
+/* || general styles */
+
+html {
+font-family: 'Mina', sans-serif;
+}
+
+
+h2{
+    color:#1d3549;
+  margin-left: 5px;
+}
+
+article{
+    background-color: #ced3d9;
+    color: #1d3549;
+}
+section p {
+  margin: 5px 0;
+  margin-left: 6px;
+}
+
+section ul {
+  margin-top: 0;
+ font-size: 14px;
+}
