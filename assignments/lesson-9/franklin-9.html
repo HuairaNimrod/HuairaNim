@@ -46,21 +46,23 @@
                 <img src="images/franklinMedium.png" alt="Franklin">
             </figure>
             <section class ="flexItem">
-                  <h3>Weather Summary</h3>    
+                  <h3>Weather Summary for <span id="place"></span></h3>    
                   <div class="highlow">
                     <p>High: 90F</p>  
-                    <p>Low: 66F</p>  
+                    <p>Low: 66F</p>
+                    <p>Current Temperature: <span id="currenTemperature"></span>F</p>  
                   </div>
-                  <div class="current">
-                    Sunny
-                        <picture>
-                            <img src="images/sunnyS.png" alt="sunny icon" width="25" height="25">
-                        </picture>
-                  </div>   
+                  <div>
+                    <p>Current weather: <span id="currentWeather"></span> </p>
+                    <img id="weatherIcon" src="" alt="current weather">  
+                </div>
+                     
                   <div class="conditions">
                     <p>Change Precipitation: 0%</p>  
                     <p>Max Wind: 5mph SW</p>
-                    <p>Wind Chill: <span id="windchill"></span></p>  
+                    <p>Wind Speed: <span id="windSpeed"></span> mph</p>  
+                    <p>Wind Chill: <span id="windchill"></span></p> 
+                    <p>FORECAST: <span id="currentForecast"></span></p>  
                   </div>           
             </section>
     </div>    
@@ -102,7 +104,7 @@
               <h3>FRANKLIN BREAKS RECORD</h3>	
               <div class="town-article">
                 <img src="images/river.jpg" alt="river">
-                short article content placeholdershort 
+                <p><span id="history"></span> mph</p> 
               </div>
              </article>		  
   
@@ -114,7 +116,7 @@
     </aside>
     <p class="footer-bar">&copy;2018 All Rights Reserved | WEatherEK <img src="images/peruFlag.png" alt="peruvian flag" width="18" height="15"> | <span id="currentDate"></span></p>
   </footer>
-
+  <script src="scripts/wu-weather.js"></script>
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
   <script src="scripts/windchill.js"></script>
