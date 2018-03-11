@@ -16,7 +16,7 @@
       <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
       <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
       <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
-      <link href="main.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+      <link href="styles/mainWK.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
 </head>
 <body>
 
@@ -69,6 +69,7 @@
               var cities = jsonObj['towns'];
 
               for (var i = 0; i < cities.length; i++) {
+                  if (i === 2) { continue; }
                     var myArticle = document.createElement('article');
                     var myH2 = document.createElement('h2');
                     var myPara1 = document.createElement('h4');
