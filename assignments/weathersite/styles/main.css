@@ -46,7 +46,10 @@ header .subheading {
 .navigation li { display: none; }
 
 /* 2nd part*/
-
+nav ul li.active a {/*Home background*/
+    background-color: #005580;
+    color: white;
+}
 .navigation.responsive { position: relative; }
 .navigation.responsive li { background-color: #c7dce3; display: block; width: 100%; margin: 0px; border: 1px solid #ddd; }
 .navigation.responsive li a { padding: 1rem;  color: #1d3549; text-align: center ; display: block; text-decoration:none solid #1d3549; }
