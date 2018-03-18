@@ -27,6 +27,7 @@ article.flexbox1 {
 
 
 main h2{
+    background: none;
     font-family: 'Cinzel', serif;
     color:#005580;
     margin-left: 5px;

@@ -2,6 +2,7 @@
 
 * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
+
 body {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
@@ -55,34 +56,41 @@ header .subheading {
 /*-------HAMBURGUER---*/
 
 
-
+/*--------------------section FlexItem---------------------------*/
 
 main {
     margin-top: 60px;
     text-align: center;
     color: #1d3549;
-    font-family: 'Ubuntu', sans-serif;
-}
-main h2,h3 {
-     font-family: 'Spectral SC', serif;
-    font-size:18px;
 }
 main figure { margin: 0 0 .2rem 2%; width:96%;  }
 main figure img { width: 100%; }
 
 .container{
+        box-shadow: 5px 4px 8px 5px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     margin-right: 2%;
+    border: 1px solid #4F88B8;
+    margin: 60px 10px 3rem 2%;
+    padding: 3em;
+    background-color: #c7dce3;
 }
 
-
-
+/*--------------------article-----------------------------*/
 
 article{
+
     border: 1px solid #4F88B8;
+    flex-direction: column;
     text-align: left;
-    margin: 60px 10px .2rem 2%;
+    margin: 60px 10px 3rem 2%;
+    padding: 3em;
+    
+
+    box-shadow: 5px 4px 8px 5px rgba(0, 0, 0, 0.2);
+}
+    
 }
 article h3{
     text-align: center;
@@ -94,8 +102,12 @@ article div{
 article div.town-article img {  /* fits the picture */
   width: 98%; /* fill the page in the small/phone view */
   margin: 0 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
     
 }
+
+/*--------------------footer------------------------------*/
 
 footer {margin-top: 10px;
     display: block;
@@ -106,7 +118,6 @@ footer {margin-top: 10px;
     width: 100%;
     background-color: #005580;
     color: aliceblue;
-/*    font-family: Comic Sans;*/
     font-family: 'Rajdhani', sans-serif;
     padding: 1em 0 1em 0;
     font-size:  smaller ;}

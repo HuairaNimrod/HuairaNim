@@ -26,14 +26,11 @@ header {
     
 /* ------hamburguer------*/
     
-main h2,h3 {
-     font-family: 'Spectral SC', serif;
-    font-size:20px;
-    }
+
 main figure { 
     
     margin-right: 5%;
-    width:80%; }
+    width:90%; }
     
 
   
@@ -44,31 +41,28 @@ main figure {
 }
     
   
+/*------article-------- */
     
-.forecast{
+ h2, h3, p {
+        font-size: 1.1em;
+    }    
+    
+.flexbox2
+{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}    
+article{
 
-        margin-top: 60px;
-    }
-    
+
+}    
 article div.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-    width: 98%;/* fill the page in the small/phone view */
-    margin: 0 0 0 0; 
+    width: 90%;/* fill the page in the small/phone view */
+    display: block;/*thi makes the center works */
+    margin-left: auto;
+    margin-right: auto;
 }
 
-    
- /*   
-table.center{
 
-    display: block;
-    width: 70%;
-    margin-right: 15%;
-    margin-left: 15%; 
-    }  
- */
-    
-  /*section.forecast { display: ???; }  /* show the 10-day forecast with the medium view and up */
-  
-  article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
-
-}
 
