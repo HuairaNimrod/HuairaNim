@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>WEatherEK</title>
+      <meta name="author" content="Nimrod Huaira">
+      <meta name="description" content="Weather site page">
+      <!-- external style references in the proper cascading order -->    
+        <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+        <!-- Google API font reference -->
+      <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+      <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+      <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+      <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+      <link href="styles/gallery.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+        <img src="images/cloudLarge.png" alt="cloud logo" width="170" height="131">
+        <h1>WEatherEK</h1>
+        <div class="subheading">More than weather...</div>
+        <button class="hamburger" onclick="toggleNav()">&#9776;</button>
+  </header>
+
+  <!-- site navigation use placeholder references -->
+  <nav>
+
+    <ul class="navigation">
+    	<li><a href="main.html">Home</a></li>
+    	<li class="active"><a href="franklin.html">Franklin</a></li>
+    	<li><a href="#">Greenville</a></li>
+    	<li><a href="#">Springfield</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="gallery.html">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+    <main>
+    
+        <h2>GALLERY</h2>
+          <div class="grid">
+              <div class="gallery-image">
+                  <img src="images/valley.png" alt="valley" > 
+                  <p>What is Lorem Ipsum?
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                  </p>
+              </div>
+              <div class="gallery-image">
+                  <img src="images/river.png" alt="river"> 
+                  <p>What is Lorem Ipsum?
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                  </p>
+              </div>
+              <div class="gallery-image">
+                  <img src="images/mountain.png" alt="mountain"> 
+                  <p>What is Lorem Ipsum?
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages. 
+                  </p>
+              </div>
+              <div class="gallery-image">
+                  <img src="images/valley.png" alt="valley1"> 
+                  <p>What is Lorem Ipsum?
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                  </p>
+              </div >
+              <div class="gallery-image">
+                  <img src="images/river.png" alt="river1"> 
+                  <p>What is Lorem Ipsum?
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                  </p>
+              </div>
+              <div class="gallery-image">
+                  <img src="images/mountain.png" alt="mountain1"> 
+                  <p>What is Lorem Ipsum?
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+                  </p>
+              </div>
+        </div>    
+</main>            
+      <footer>
+        <aside>
+          Lima, Peru
+        </aside>
+        <p class="footer-bar">&copy;2018 All Rights Reserved | WEatherEK <img src="images/peruFlag.png" alt="peruvian flag" width="18" height="15"> | <span id="currentDate"></span></p>
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/windchill.js"></script>
+
+</body>
+</html>

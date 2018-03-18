@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>WEatherEK</title>
+      <meta name="author" content="Nimrod Huaira">
+      <meta name="description" content="Weather site page">
+      <!-- external style references in the proper cascading order -->    
+        <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+    <!-- MAIN -->
+        <!-- Google API font reference -->
+      <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+      <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+      <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+      <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+      <link href="styles/mainWK.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+</head>
+<body>
+
+  <header>
+        <img src="images/cloudLarge.png" alt="cloud logo" width="150" height="120">
+        <h1>WEatherEK</h1>
+        <div class="subheading">More than weather...</div>
+        <button class="hamburger" onclick="toggleNav()">&#9776;</button>
+  </header>
+
+  <!-- site navigation use placeholder references -->
+  <nav>
+
+    <ul class="navigation">
+    	<li><a href="main.html">Home</a></li>
+    	<li class="active"><a href="franklin.html">Franklin</a></li>
+    	<li><a href="#">Greenville</a></li>
+    	<li><a href="#">Springfield</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="gallery.html">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+    <main>
+        <article class="flexbox1">
+                    <div>
+                        <h2>Weather Story</h2>
+                        <p class="w-story">Vel convallis quam fringilla quis. Vestibulum tristique, purus nec maximus tincidunt, nisl urna iaculis felis, nec tristique arcu nisi id velit. 
+                        </p>
+                    </div>
+                    <img src="images/mountain.png" alt="mountain">
+
+        </article>
+        <section class="grid">
+
+        </section>
+
+    </main>
+    
+  <footer>
+    <aside>
+      Lima, Peru
+    </aside>
+    <p class="footer-bar">&copy;2018 All Rights Reserved | WEatherEK <img src="images/peruFlag.png" alt="peruvian flag" width="18" height="15"> | <span id="currentDate"></span></p>
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/windchill.js"></script>
+  <script src="scripts/home.js"></script> 
+ 
+    
+</body>
+</html>

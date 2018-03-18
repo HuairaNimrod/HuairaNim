@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>WEatherEK</title>
+      <meta name="author" content="Nimrod Huaira">
+      <meta name="description" content="Weather site page">
+      <!-- external style references in the proper cascading order -->    
+        <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+    <!-- MAIN -->
+        <!-- Google API font reference -->
+      <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+      <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+      <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+      <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+      <link href="styles/mainWK.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+</head>
+<body>
+
+  <header>
+        <img src="images/cloudLarge.png" alt="cloud logo" width="170" height="131">
+        <h1>WEatherEK</h1>
+        <div class="subheading">More than weather...</div>
+        <button class="hamburger" onclick="toggleNav()">&#9776;</button>
+  </header>
+
+  <!-- site navigation use placeholder references -->
+  <nav>
+
+    <ul class="navigation">
+    	<li><a href="main.html">Home</a></li>
+    	<li class="active"><a href="franklin.html">Franklin</a></li>
+    	<li><a href="#">Greenville</a></li>
+    	<li><a href="#">Springfield</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="gallery.html">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+    
+            <h2>THE CITY OF FRANKLIN</h2>
+      <div class="container">  
+            <figure class="flexItem">
+                <picture>
+                <source srcset="images/franklinSmall.png" media="(max-width: 599px)">
+                <source srcset="images/franklinMedium.png" media="(max-width: 1023px)">
+                <img src="images/franklinLarge.png" alt="Franklin">
+            </picture>
+                
+            </figure>
+            <section class ="flexItem">
+                  <h3>Weather Summary for <span id="place"></span></h3>    
+                  <div class="highlow">
+                    <p>High: 90F</p>  
+                    <p>Low: 66F</p>
+                    <p>Current Temperature: <span id="currenTemperature"></span>F</p>  
+                  </div>
+                  <div>
+                    <p>Current weather: <span id="currentWeather"></span> </p>
+                    <img id="weatherIcon" src="" alt="current weather">  
+                </div>
+                     
+                  <div class="conditions">
+                    <p>Change Precipitation: 0%</p>  
+                    <p>Max Wind: 5mph SW</p>
+                    <p>Wind Speed: <span id="windSpeed"></span> mph</p>  
+                    <p>Wind Chill: <span id="windchill"></span></p> 
+                    <p>FORECAST: <span id="currentForecast"></span></p>  
+                  </div>           
+            </section>
+    </div>    
+            
+
+            <article>
+              <h3>FRANKLIN BREAKS RECORD</h3>	
+              <div class="town-article">
+                <img src="images/river.jpg" alt="river">
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <span id="history"></span></p> 
+              </div>
+             </article>		  
+  
+  </main>
+    
+  <footer>
+    <aside>
+      Lima, Peru
+    </aside>
+    <p class="footer-bar">&copy;2018 All Rights Reserved | WEatherEK <img src="images/peruFlag.png" alt="peruvian flag" width="18" height="15"> | <span id="currentDate"></span></p>
+  </footer>
+  <script src="scripts/wu-weather.js"></script>
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/windchill.js"></script>
+
+</body>
+</html>

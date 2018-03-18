@@ -1,0 +1,100 @@
+/* || general styles */
+
+main{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+article, section{
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+article.flexbox1 {
+    text-align: center;
+    box-shadow: 5px 4px 8px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 1em;
+    padding-top: 1%;
+}
+.flexbox1 > img {  /* flexbox > mountain*/
+    width: 50%;
+    max-width: 500px;
+    padding-bottom: 0.8em;
+    display: flex;
+    margin: 0 auto;
+    
+   /* fill the page in the small/phone view */
+}
+
+
+main h2{
+    font-family: 'Cinzel', serif;
+    color:#005580;
+    margin-left: 5px;
+}
+
+ .grid h4{
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: -10px;
+    margin-left: 25px;
+    color:aliceblue;
+}
+
+main article{
+    
+    background-color: #B5CDE1;
+    color: #1d3549;
+}
+main section p {
+  margin: 5px 0;
+  margin-left: 15px;
+}
+
+main section ul {
+  margin-top: 0;
+ font-size: 14px;
+}
+
+/*this helps to make it responsive!!!! more than 2 columns*/
+main > .grid {
+    font-family: 'Rajdhani', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    text-align: center;
+    padding-top: 1em; 
+}
+
+    
+/*---end grid container small view--*/
+
+@media only screen and (min-width: 37.5em) {
+    
+    main article.container, .flexbox1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        margin: 0 3.8em 0 3.6em;
+    }
+    
+    main article.container img , .flexbox1>img{ 
+        width: 40%;
+        margin-top: 0;
+        padding: 0.7em;
+        order: 1;
+    } 
+    article.info {
+        margin: 2em 5.6em 2em 3.6em;
+    }
+    
+    section.grid {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 2em 3.6em 0;
+        grid-gap: 2em;
+    }
+
+}
+
+/*---grid container Large view--*/
+
+
