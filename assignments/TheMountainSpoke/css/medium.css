@@ -33,7 +33,11 @@ header h2{ margin-left: 2rem;}
         text-align: left;
         
     }
-    .box2, .box3{
+    .box2{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .box3, .box4{
         max-width: 90%;
         background-color: #f5efef;
 }
