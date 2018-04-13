@@ -1,0 +1,81 @@
+/*----------------------- MAIN STUFF -------------------------*/
+*{ margin:0 }
+body { font-family: 'Rajdhani', sans-serif; font-size: 1em;}
+header { background-color: #cc0000; }
+header img { margin-left: 3rem; height: 60px; width: 126px; margin-bottom: -25px;}
+header h2 { margin-left: 3rem;	padding: .8rem; color: #fff;}
+main { padding: 0.5em; /*background-color: #ffe6e6;*/ }
+
+/*--------------navigation-------------------*/
+
+.hamburger { display: block;position: absolute; top: 2.0rem; left: 0.5rem; background-color: #cc0000; border-color: #cc0000; color: #fff;  }
+.navigation { list-style: none; padding-left: 0; }
+.navigation li { display: none; }
+
+ /*@media only screen and (max-width: 37.5em) {*/
+
+.navigation.responsive { position: relative; }
+.navigation.responsive li { background-color: #ffb3b3;	display: block;	width: 100%; margin: 1.5px 0;}
+.navigation.responsive li a {	padding: 0.5rem; text-align: center;	display: block; text-decoration:none; color: #cc0000; }
+.navigation.responsive li a:hover { background-color: #ff6666; color: #fff;}
+
+/*}*/
+
+/*--------------navigation end-------------------*/
+
+
+/*---grid container small view--*/
+
+
+   .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5%; 
+    grid-auto-rows: auto;  
+    grid-gap: 0.5em;
+    text-align: center;
+    font-size: 1.0em;
+    border-style: solid ;
+    border-color:   #cc0000;
+    
+}
+
+.box1, .box2, .box3, .box4{
+    width: auto;
+    background-color: #fff;
+    padding: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#f5efef ;
+}
+.box2{
+    background-color: #cc0000;
+}
+.box2 img{
+
+    float: 
+}
+.box2 h2{
+    color: #fff;
+}
+.grid img{
+    width: 95%;  
+}
+
+
+/*---end grid container small view--*/
+
+
+
+
+/*---end grid container--*/
+
+
+footer{
+    background-color: #e6e6e6;
+    font-size: 0.8rem;
+}
+
+
+
+
