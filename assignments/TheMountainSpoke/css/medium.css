@@ -19,7 +19,7 @@ header h2{ margin-left: 2rem;}
         padding: 3%;
     }
     
- .box1{
+ .box1, .box5, .box6{
         grid-column-start: 1;
         grid-column-end: 3;
         display: grid;
@@ -28,8 +28,8 @@ header h2{ margin-left: 2rem;}
         grid-column-gap: 0.5em;
 }
 
-    .box1-text{
-        font-size: 0.7em;
+    .box1-text, .box5-text, .box6-text{
+        font-size: 0.8em;
         text-align: left;
         
     }
@@ -42,5 +42,9 @@ header h2{ margin-left: 2rem;}
         background-color: #f5efef;
 }
     
+    .box5-text, .box6-text{
+       color: #a34747;
+        font-size: 1.2em
+    }
 
 }
