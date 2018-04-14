@@ -13,7 +13,7 @@ table, th, td {
     border-collapse: collapse;
 }
 th, td {
-    padding: 15px;
+    padding: 8px;
     text-align: left;
 }
 table#priceTable tr:nth-child(odd) {
@@ -42,6 +42,12 @@ td:nth-of-type(2), td:nth-of-type(4) {
     border-style: solid ;
     border-color:   #cc0000;
     
+}
+
+.event h2{
+    font-family: 'Gugi', cursive;
+    font-weight: bold;
+    color: ;
 }
 .bx1 img{
     padding: 0.5em;
