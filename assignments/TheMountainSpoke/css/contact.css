@@ -1,3 +1,11 @@
+main h2{
+    font-family: 'Rajdhani', sans-serif;;
+    font-size: 1.4em;
+    padding: 0.5em; 
+    color:  #cc0000;
+}
+
+
 #map{
     padding: 0.5em;
     border-style: solid ;
@@ -9,3 +17,98 @@
    height: 400px;
    background-color: grey;
  }
+/*---------------- FORM STUFF ------------------------*/
+
+
+form#contactForm{
+    margin: 1em 3%;
+    text-align: left;
+}
+
+fieldset {
+    background-color: ;
+    border-radius: .8em;
+    margin: 1.5em 0 ;
+    border: #cc0000 solid 1px;
+    
+}
+
+legend{
+    color: #cc0000;
+    margin-left: 6%;
+    padding: .5em;
+    border: #cc0000 solid 1px;
+    background-color:#ffb3b3;
+    border-radius: .4em;
+}
+
+label{
+    display: block;
+    margin: .4em;
+}
+
+label span{
+    display: block;
+    font-size: .8em;
+    color: #cc0000;
+    padding-top: .6em;
+    padding-bottom: .2em;
+}
+
+input.submitBtn {
+    -webkit-appearance: none; /*remove the apple mobile default styling*/
+    color: #fff;
+    border: solid 1px #111;
+    border-radius: 7px;
+    width: 30%;
+    margin: .5em 0;
+    font-size: 1em;
+    padding: .6em;
+    background: #cc0000;
+    box-shadow: 4px 4px 10px #666;
+}
+
+/*---count----*/
+.countbox {
+
+    width:95%;
+    height:140px;
+    border:1px solid ;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    padding:10px;
+    border-radius:8px;
+    background:rgba(0,0,0,0.03);
+    overflow:hidden;
+}
+
+.textbox {
+    width: 99%;
+    height:100px;
+    font-size:13px;
+    text-shadow:0px 1px 1px rgba(0,0,0,0.3);
+    background-color:#FFF;
+    -webkit-transition: background-color 300ms;
+       -moz-transition: background-color 300ms;
+        -ms-transition: background-color 300ms;
+         -o-transition: background-color 300ms;
+            transition: background-color 300ms;
+}
+
+.redWarning {
+    background-color: rgba(229, 0, 0, 0.5);
+}
+
+.countDisplay {
+
+    font-size:15px;
+    font-family:sans-serif;
+    margin:0px;
+    padding:0px;
+    top:130px;
+    font-weight:normal;
+}
+
