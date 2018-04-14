@@ -1,5 +1,23 @@
-.event h2{
-    font-family: 'Berkshire Swash', cursive;
-    font-weight: bold;
-    color: ;
+.event h3{
+    font-family: 'Permanent Marker', cursive;
+    color: #cc0000;
+}
+.bx2 img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+@media only screen and (min-width: 37.5em) {
+    
+    .bx2 img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}
+    
 }
