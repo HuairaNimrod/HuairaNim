@@ -73,7 +73,7 @@ input.submitBtn {
 
     width:95%;
     height:140px;
-    border:1px solid ;
+    border:#cc0000 1px solid ;
     top:0px;
     bottom:0px;
     left:0px;
@@ -104,7 +104,7 @@ input.submitBtn {
 
 .countDisplay {
 
-    font-size:15px;
+    font-size: 7%;
     font-family:sans-serif;
     margin:0px;
     padding:0px;
